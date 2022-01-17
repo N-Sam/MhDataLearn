@@ -5,14 +5,14 @@ with open("README.md", 'r') as fh:
 
 setup(
 
-    name="mhdatalearn",
+    name="MHDdatalearn",
     version="1.0.0",
     author="Samuel Simon, Yan, Kris",
     author_email="ns650@exter.ac.uk, ky297@exeter.ac.uk, kjb230@exeter.ac.uk, simon.wellesley-miller@nhs.net",
     url="https://github.com/N-Sam/MhDataLearn",
     descriptions="This package helps you to select the best classification model Algorithm in sklearn librarry ",
     long_description=long_description,
-    long_description_content_type="text/markdown"
+    long_description_content_type="text/markdown",
     py_modules=["calculate", "clean", "load",
                 "process", "model_selector", "prediction"],
     packages=find_packages(include=["mhdatalearn", "mhdatalearn.*"]),
@@ -42,7 +42,7 @@ setup(
             "sklearn>=1.0.0",
             "seaborn>=0.9.1",
             "pandas>=1.14.0",
-            "matplotlib>=3.2.0"
+            "matplotlib>=3.2.0",
             "unittest>=3.7"
         ],
     },

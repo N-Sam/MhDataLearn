@@ -8,4 +8,7 @@ new, preprocessed MHSDS data to identify people at high
 risk of readmission.
 """
 
+__version__ = "1.0.0"
+__author__ = "Samuel, Simon, Yan, Kris"
+
 from MHDataLearn import (preprocessing, modelselector, predict)
