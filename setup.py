@@ -16,7 +16,7 @@ setup(
     py_modules=["calculate", "clean", "load",
                 "process", "model_selector", "prediction"],
     packages=find_packages(include=["mhdatalearn", "mhdatalearn.*"]),
-    # package_dir={'': 'mdatalearn'}
+    ##
     install_requires=[
         'numpy>=1.14.0',
         'pandas>=1.0.0',
