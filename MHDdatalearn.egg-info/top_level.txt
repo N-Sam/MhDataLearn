@@ -1,6 +1,0 @@
-calculate
-clean
-load
-model_selector
-prediction
-process
